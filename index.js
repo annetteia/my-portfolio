@@ -11,5 +11,5 @@ app.listen(PORT, () => {
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', (request, response) => {
-  response.sendFile(__dirname + '/public/portfolio.html')
+  response.sendFile(__dirname + '/public/Portfolio.html')
 });
